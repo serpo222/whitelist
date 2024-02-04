@@ -1,4 +1,4 @@
-local weinzwhitelisted = { "32Zaak", "Player2", "AntonioxD121", "thequitakamaimutasol" }
+local weinzwhitelisted = { "10bagzz", "32Zaak", "AntonioxD121", "TheQuitakamaimutasol" }
 
 function isWeinzwhitelisted(player) for _, name in ipairs(weinzwhitelisted) do if name == player.Name then return true end end return false end
 
