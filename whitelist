@@ -6,5 +6,5 @@ local player = game.Players.LocalPlayer
 if isWeinzwhitelisted(player) then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/serpo222/hub-checker/main/if%20game", true))()
 else
-game.Players.LocalPlayer:Kick("Attempting to bypass the script may result in account suspension or Game Ban")
+game.Players.LocalPlayer:Kick("Attempting to bypass the script may result in account suspension or Game Ban.")
 end
